@@ -18,7 +18,7 @@ This is the landing page for Horiseon Social Solution Services, Inc. It showcase
 Clone the repository or download the ZIP file to your local machine. Open the `index.html` file in your web browser to view the landing page.
 
 ```sh
-git clone git@github.com:username/repo-name.git
+git clone git@github.com:markthos/challenge1.git
 ```
 
 ## Usage
