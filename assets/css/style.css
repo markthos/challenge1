@@ -1,13 +1,14 @@
+/*sets the base box border and positioning for the webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*sets the base color for the webpage*/
 body {
     background-color: #d9dcd6;
 }
-
+/*styles the parent header with fonts, color, spacing, and positioning*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +20,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/*adds a separate color scheme for the 'seo' in the header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -31,7 +32,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*syle the unordered list in the header with positioning, text color, and spacing*/
 .header div ul {
     list-style-type: none;
 }
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*handles the main image and its styling setting size, position, color, and surrounding spacing*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*handles the spacing between elements that have these float classes primarily in the article section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +69,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*gives basic style components to the parent main class content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Styles the aside benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +86,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*styles the individual benefit classes to make them standout*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +101,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*styles the headers for each individual benefit class to make them center aligned*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +116,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*styles the images for the aside so that there is uniformity and readability*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*styles the three detailed sections at the bottom of the page that can be referenced by the unordered list at the top of the page*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*sytles the maximum height of the images in the detail article sections for uniformity and usability*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +173,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*styles the headers for the detailed article section at the bottom to make them standout and easy to read*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Styling the footer by adding padding, multiple font-families, and other style elements*/
 .footer {
     padding: 30px;
     clear: both;
