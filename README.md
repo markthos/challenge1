@@ -41,5 +41,7 @@ This landing page is licensed under the [MIT License](https://opensource.org/lic
 
 ## Link
 
-<a href="https://markthos.github.io/challenge1/">URL of deployed application</a>
-<a href="https://github.com/markthos/challenge1.git">URL of GitHub repository</a>
+<ul>
+  <li><a href="https://markthos.github.io/challenge1/">URL of deployed application</a></li>
+  <li><a href="https://github.com/markthos/challenge1.git">URL of GitHub repository</a></li>
+</ul>
