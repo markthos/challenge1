@@ -37,7 +37,7 @@ This landing page is licensed under the [MIT License](https://opensource.org/lic
 
 ## Screenshot
 
-<img src="C:\Users\ayden\Bootcamp\challenge1\assets\images\ScreenShot Tool -20230503204731.png">
+<img src="assets\images\ScreenShot Tool -20230503205730.png">
 
 ## Link
 
